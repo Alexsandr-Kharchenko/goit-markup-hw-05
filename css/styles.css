@@ -44,6 +44,9 @@ img {
   display: block;
 }
 
+.vector_graphics {
+  fill: #f4f4fd;
+}
 /* header */
 
 .header-page {
@@ -358,10 +361,6 @@ img {
   background-color: #404bbf;
 }
 
-.our-team-icons-svg {
-  fill: #f4f4fd;
-}
-
 /* Our Portfolio */
 
 .our-portfolio {
@@ -525,4 +524,65 @@ img {
 
 .footer-page-media-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-page-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-page-subscribe {
+  margin-left: 80px;
+}
+
+.footer-page-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-page-label {
+}
+
+.footer-page-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-page-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.footer-page-icons-svg {
+  margin-left: 16px;
 }
