@@ -647,10 +647,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-icons:hover {
+.modal-button:hover .modal-button-icons {
   fill: #ffffff;
 }
-.modal-button-icons:focus {
+.modal-button:focus .modal-button-icons {
   fill: #ffffff;
 }
 
@@ -663,6 +663,10 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
+}
+
+.modal-form {
+  margin-bottom: 8px;
 }
 
 .modal-form-label {
