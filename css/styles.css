@@ -769,11 +769,12 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-wrapper {
-  float: left;
+.modal-form-icon {
+  position: absolute;
+  z-index: 1;
 }
 
-.icons-wrapper input[type='checkbox']:checked {
+.modal-privacy-input:checked + .modal-privacy-label .modal-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
