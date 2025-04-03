@@ -559,6 +559,10 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.footer-page-input::placeholder {
+  color: #fff;
+}
+
 .footer-page-button {
   display: flex;
   align-items: center;
@@ -570,7 +574,6 @@ img {
   width: 165px;
   height: 40px;
   background: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
@@ -579,6 +582,11 @@ img {
   text-align: center;
   color: #fff;
   border: none;
+}
+
+.footer-page-button:hover,
+.footer-page-button:focus {
+  background-color: #404bbf;
 }
 
 .footer-page-icons-svg {
